@@ -1,4 +1,5 @@
 ﻿using EcommerceMVC.Context;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -66,6 +67,30 @@ namespace EcommerceMVC.Models {
             }
             _context.SaveChanges();
             return quantidadeLocal;
+        }
+
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItens() {
+            return CarrinhoCompraItems ?? (CarrinhoCompraItems = _context.CarrinhoCompraItens
+                .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                .Include(s => s.Produto)
+                .ToList());
+        }
+
+        public void LimparCarrinho() {
+            //Achar o carrinho que quero excluir
+            var carrinhoItens = _context.CarrinhoCompraItens
+                .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
+            //Removendo todas as entidades
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+            _context.SaveChanges();
+        }
+
+        public decimal GetCarrinhoCompraTotal() {
+            var total = _context.CarrinhoCompraItens
+                .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                .Select(c => c.Produto.Preco * c.Quantidade)
+                .Sum();
+            return total;
         }
     }
 }
