@@ -1,0 +1,15 @@
+﻿@model ProdutoListViewModel
+
+<div>
+    <h2 style="margin-bottom:30px;" class="text-center">@Model.CategoriaAtual</h2>
+</div>
+
+
+<div class="container text-center">
+    <div class="row row-cols-3">
+        @foreach (var produto in Model.Produtos) {
+            //Declarando a Partial View
+            <partial name="_ProdutosResumo" for="@produto"/>
+        }
+    </div>
+</div>

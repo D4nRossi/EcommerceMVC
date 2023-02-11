@@ -1,0 +1,12 @@
+﻿<!--Model para a partial view-->
+@model Produto;
+
+<div class="col-sm-4 col-md-4 col-lg-4 align-content-center" style="margin:2px;background-color:	#D3D3D3;border-radius:10px;width:370px;">
+    <p><img class="img-fluid" style="max-height:300px;max-width:200px;" src="@Model.ImagemUrl" /></p>
+    <h4>@Model.Nome  <strong>Preço: @Model.Preco.ToString("c")</strong></h4>
+    <p>@Model.DescricaoDetalhada</p>
+</div>
+
+
+
+
