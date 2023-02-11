@@ -1,4 +1,5 @@
 ﻿using EcommerceMVC.Context;
+using EcommerceMVC.Models;
 using EcommerceMVC.Repositories;
 using EcommerceMVC.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ public class Startup {
         //Injeção de dependencia
         services.AddTransient<IProdutoRepository, ProdutoRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
         //Habilitando o Cache
         services.AddMemoryCache();
         services.AddSession();
