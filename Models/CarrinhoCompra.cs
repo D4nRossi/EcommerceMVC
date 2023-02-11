@@ -50,5 +50,22 @@ namespace EcommerceMVC.Models {
             }
             _context.SaveChanges();
         }
+
+        public int RemoverDoCarrinho(Produto produto) {
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(s => s.Produto.ProdutoId == produto.ProdutoId && s.CarrinhoCompraId == CarrinhoCompraId);
+
+            var quantidadeLocal = 0;
+
+            if (carrinhoCompraItem != null) {
+                if(carrinhoCompraItem.Quantidade > 1) {
+                    carrinhoCompraItem.Quantidade--;
+                    quantidadeLocal = carrinhoCompraItem.Quantidade;
+                } else {
+                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                }
+            }
+            _context.SaveChanges();
+            return quantidadeLocal;
+        }
     }
 }
