@@ -4,7 +4,7 @@
 <partial name="_Carousel" />
 
 <h2>Os preferidos de todos os tempos</h2>
-<div class="row">
+<div class="row-cols-2">
     @foreach(var produto in Model.ProdutosPreferidos){
         <partial name="_ProdutosResumo" for="@produto" />
     }

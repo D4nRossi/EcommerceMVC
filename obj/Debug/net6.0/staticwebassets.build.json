@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7qpsE+tVYk5DqeaNrJn6eRTfYD1sQfwhIhU2LgqEG+U=",
+  "Hash": "wz/rQ/+nu/ni82hYQfam16HaFyAEb3pwXj64W0djWis=",
   "Source": "EcommerceMVC",
   "BasePath": "_content/EcommerceMVC",
   "Mode": "Default",
@@ -457,6 +457,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Carousel\\Stoicism\\STOICISM.png"
+    },
+    {
+      "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\CarrinhoCompra.png",
+      "SourceId": "EcommerceMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\",
+      "BasePath": "_content/EcommerceMVC",
+      "RelativePath": "img/Icons/CarrinhoCompra.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\CarrinhoCompra.png"
+    },
+    {
+      "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\TrashCan.png",
+      "SourceId": "EcommerceMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\",
+      "BasePath": "_content/EcommerceMVC",
+      "RelativePath": "img/Icons/TrashCan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\TrashCan.png"
     },
     {
       "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Estoicismo\\Diario.jpg",
