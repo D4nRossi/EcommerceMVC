@@ -1,0 +1,14 @@
+﻿<!--View do Componente do CarrinhoCompraResumo-->
+@model CarrinhoCompraViewModel
+
+@if(Model.CarrinhoCompra.CarrinhoCompraItems.Count > 1){
+    <a style="text-decoration:none;" asp-controller="CarrinhoCompra" asp-action="Index">
+        <span><img style="height:40px" src="~/img/Icons/cart.ico" /></span>
+        <span style="color:dodgerblue;">
+            @Model.CarrinhoCompra.CarrinhoCompraItems.Count
+        </span>
+    </a>
+}
+
+
+
