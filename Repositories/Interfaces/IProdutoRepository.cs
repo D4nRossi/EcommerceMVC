@@ -3,7 +3,7 @@
 namespace EcommerceMVC.Repositories.Interfaces {
     public interface IProdutoRepository {
 
-        //Retorno de todos os lanches
+        //Retorno de todos os produtos
         IEnumerable<Produto> Produtos { get; }
 
         //Só os preferidos
