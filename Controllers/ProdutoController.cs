@@ -26,15 +26,18 @@ namespace EcommerceMVC.Controllers {
                 produtos = _produtoRepository.Produtos.OrderBy(l => l.ProdutoId);
                 categoriaAtual = "Todos os produtos";
             } else {
-                if (string.Equals("Estoicos", categoria, StringComparison.OrdinalIgnoreCase)) {
+                /*if (string.Equals("Estoicos", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Estoicos")).OrderBy(l => l.Nome);
                 } else if (string.Equals("Manga", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Manga")).OrderBy(l => l.Nome);
                 } else if (string.Equals("Suplementos", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Suplementos")).OrderBy(l => l.Nome);
                 } else {
-                    produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("404")).OrderBy(l => l.Nome);
-                }
+                    produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("404")).OrderBy(l => l.Nome);}*/
+
+                //Consulta das categorias
+                produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals(categoria)).OrderBy(c => c.Nome);
+
                 categoriaAtual = categoria;
             }
             var produtosListViewModel = new ProdutoListViewModel {
