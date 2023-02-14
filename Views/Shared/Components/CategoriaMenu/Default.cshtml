@@ -1,0 +1,23 @@
+﻿<div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Produtos
+    </a>
+    <ul class="dropdown-menu">
+        @foreach (var categoria in Model) {
+            //Filtro pro dropdown
+            if (categoria.CategoriaNome != "404") {
+                <li>
+                    <a class="dropdown-item" asp-controller="Produto" asp-action="List" style="color:#000" asp-route-categoria="@categoria.CategoriaNome">
+                        @categoria.CategoriaNome
+                    </a>
+                </li>
+            }
+        }
+        <li class="dropdown-divider"></li>
+        <li>
+            <a class="dropdown-item" asp-controller="Produto" asp-action="List" asp-route-categoria="" style="color:#000">
+                Todos os Produtos
+            </a>
+        </li>
+    </ul>
+</div>
