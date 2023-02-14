@@ -22,6 +22,7 @@ public class Startup {
         services.AddTransient<IProdutoRepository, ProdutoRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
+        services.AddTransient<IPedidoRepository, PedidoRepository>();
         //Habilitando o Cache
         services.AddMemoryCache();
         services.AddSession();
