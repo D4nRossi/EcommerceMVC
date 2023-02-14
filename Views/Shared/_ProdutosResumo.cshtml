@@ -1,10 +1,22 @@
 ﻿<!--Model para a partial view-->
 @model Produto;
 
-<div class="col-sm-4 col-md-4 col-lg-4 align-content-center" style="margin:2px;background-color:	#D3D3D3;border-radius:10px;width:370px;">
-    <p><img class="img-fluid" style="max-height:300px;max-width:200px;" src="@Model.ImagemUrl" /></p>
-    <h4>@Model.Nome  <strong>Preço: @Model.Preco.ToString("c")</strong></h4>
-    <p>@Model.DescricaoDetalhada</p>
+<div class="container justify-content-center  row-cols-md-auto">
+    <div class="row justify-content-center" style="margin:2px;border: 1px solid #000;border-radius:10px;height:462.8px;">
+        <p class="img-fluid"><img class="img-fluid" style="max-height:300px;max-width:200px;" src="@Model.ImagemUrl" /></p>
+        <a asp-controller="Produto" asp-action="Details" asp-route-ProdutoId="@Model.ProdutoId">
+            @Model.Nome
+        </a>
+        <h4><strong>Preço: @Model.Preco.ToString("c")</strong></h4>
+        <p>@Model.DescricaoCurta</p>
+        <div>
+            <p class="button">
+                <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-produtoId="@Model.ProdutoId">
+                    Incluir no Carrinho
+                </a>
+            </p>
+        </div>
+    </div>
 </div>
 
 

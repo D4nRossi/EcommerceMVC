@@ -26,6 +26,7 @@ namespace EcommerceMVC.Controllers {
                 produtos = _produtoRepository.Produtos.OrderBy(l => l.ProdutoId);
                 categoriaAtual = "Todos os produtos";
             } else {
+                //LEGADO
                 /*if (string.Equals("Estoicos", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Estoicos")).OrderBy(l => l.Nome);
                 } else if (string.Equals("Manga", categoria, StringComparison.OrdinalIgnoreCase)) {
@@ -47,5 +48,11 @@ namespace EcommerceMVC.Controllers {
 
             return View(produtosListViewModel);
         }
+
+        public IActionResult Details(int produtoId) {
+            var produto = _produtoRepository.Produtos.FirstOrDefault(l => l.ProdutoId == produtoId);
+            return View(produto);
+        }
+
     }
 }
