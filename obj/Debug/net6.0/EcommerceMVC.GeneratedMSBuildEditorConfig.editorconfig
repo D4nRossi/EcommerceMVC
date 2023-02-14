@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcommerceMVC
 build_property.RootNamespace = EcommerceMVC
-build_property.ProjectDir = D:\Git2023\EcommerceMVC\EcommerceMVC\
+build_property.ProjectDir = d:\Git2023\EcommerceMVC\EcommerceMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Git2023\EcommerceMVC\EcommerceMVC
+build_property.MSBuildProjectDirectory = d:\Git2023\EcommerceMVC\EcommerceMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/CarrinhoCompra/Index.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Contato/Index.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Home/Index.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Produto/Details.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Produto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Produto/List.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Produto/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FycmluaG9Db21wcmFSZXN1bW9cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Components/CategoriaMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Error.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_Carousel.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_ProdutosResumo.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_ProdutosResumo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdXRvc1Jlc3Vtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/_ViewImports.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/_ViewStart.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_Layout.cshtml]
+[d:/Git2023/EcommerceMVC/EcommerceMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cd2txni9yu
