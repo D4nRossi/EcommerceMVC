@@ -15,11 +15,6 @@ namespace EcommerceMVC.Components {
         public IViewComponentResult Invoke() {
             //Itens a serem obtidos
             var itens = _carrinhoCompra.GetCarrinhoCompraItens();
-            /*//Itens fake
-            var itens = new List<CarrinhoCompraItem>() {
-                new CarrinhoCompraItem(),
-                new CarrinhoCompraItem()
-            };*/
 
             _carrinhoCompra.CarrinhoCompraItems = itens;
             //Instancia da ViewModel
