@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9r+G9p4ERyN1qWDd/zhXdYR7xasjINCUwLMA1JW2x44=",
+  "Hash": "BrxWYRKSLr0ycua4oJSZkX9vcSOCjPXsZ82nKj+ioTQ=",
   "Source": "EcommerceMVC",
   "BasePath": "_content/EcommerceMVC",
   "Mode": "Default",
@@ -459,6 +459,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel\\Stoicism\\STOICISM.png"
     },
     {
+      "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\CarrinhoCompra.ico",
+      "SourceId": "EcommerceMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\",
+      "BasePath": "_content/EcommerceMVC",
+      "RelativePath": "img/Icons/CarrinhoCompra.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\CarrinhoCompra.ico"
+    },
+    {
       "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\CarrinhoCompra.png",
       "SourceId": "EcommerceMVC",
       "SourceType": "Discovered",
@@ -576,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Icons\\phone-app-icon.png"
+    },
+    {
+      "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\TrashCan.ico",
+      "SourceId": "EcommerceMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\",
+      "BasePath": "_content/EcommerceMVC",
+      "RelativePath": "img/Icons/TrashCan.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Icons\\TrashCan.ico"
     },
     {
       "Identity": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\TrashCan.png",
