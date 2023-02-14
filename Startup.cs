@@ -25,7 +25,7 @@ public class Startup {
         //Habilitando o Cache
         services.AddMemoryCache();
         services.AddSession();
-      
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,9 +48,17 @@ public class Startup {
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints => {
+
+            //Endpoint dos produtos filtrados
+            endpoints.MapControllerRoute(
+                name: "categoriaFiltro",
+                pattern: "Produto/{action}/{categoria?}",
+                defaults: new { Controller = "Produto", Action = "List" });
+
             endpoints.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
         });
+
     }
 }

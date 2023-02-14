@@ -30,8 +30,10 @@ namespace EcommerceMVC.Controllers {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Estoicos")).OrderBy(l => l.Nome);
                 } else if (string.Equals("Manga", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Manga")).OrderBy(l => l.Nome);
-                } else{
+                } else if (string.Equals("Suplementos", categoria, StringComparison.OrdinalIgnoreCase)) {
                     produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("Suplementos")).OrderBy(l => l.Nome);
+                } else {
+                    produtos = _produtoRepository.Produtos.Where(l => l.Categoria.CategoriaNome.Equals("404")).OrderBy(l => l.Nome);
                 }
                 categoriaAtual = categoria;
             }
