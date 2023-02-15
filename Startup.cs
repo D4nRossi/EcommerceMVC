@@ -2,6 +2,7 @@
 using EcommerceMVC.Models;
 using EcommerceMVC.Repositories;
 using EcommerceMVC.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceMVC;
@@ -16,6 +17,8 @@ public class Startup {
     public void ConfigureServices(IServiceCollection services) {
         services.AddControllersWithViews();
         services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        //Serviço da autenticação e autorização Identity
+        services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
         //Serviços para acessar o HttpContext(valendo por todo tempo da aplicação)
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         //Injeção de dependencia
@@ -46,6 +49,8 @@ public class Startup {
         //Ativando o session
         app.UseSession();
 
+        //Ativando autenticação e autorização
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints => {
