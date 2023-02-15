@@ -54,5 +54,26 @@ namespace EcommerceMVC.Controllers {
             return View(produto);
         }
 
+        //Pesquisar produto pelo nome
+        public ViewResult Search(string searchString) {
+            IEnumerable<Produto> produtos;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString)) {
+                produtos = _produtoRepository.Produtos.OrderBy(p => p.ProdutoId);
+                categoriaAtual = "Todos os Produtos";
+            } else {
+                produtos = _produtoRepository.Produtos.Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+                if (produtos.Any())
+                    categoriaAtual = "Produtos";
+                else
+                    categoriaAtual = "Nenhum produto foi encontrado";
+            
+            }
+            return View("~/Views/Produto/List.cshtml", new ProdutoListViewModel{
+                Produto = produtos,
+                CategoriaAtual = categoriaAtual
+            });
+        }
     }
 }

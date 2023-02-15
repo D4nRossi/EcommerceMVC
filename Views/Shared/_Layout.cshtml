@@ -31,6 +31,13 @@
                         <li class="nav-item">
                             @await Component.InvokeAsync("CategoriaMenu")
                         </li>
+                        <li>
+                            <form class="navbar-form navbar-right" asp-controller="Produto" asp-action="Search" method="get" style="margin-right:1px">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Procurar Produto" name="searchString" value="@ViewData["searchString"]" />
+                                </div>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
