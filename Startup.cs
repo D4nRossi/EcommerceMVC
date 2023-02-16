@@ -30,6 +30,17 @@ public class Startup {
         services.AddMemoryCache();
         services.AddSession();
 
+        //Sobrescrever senha do Identity
+        services.Configure<IdentityOptions>(options => {
+            //Default
+            options.Password.RequireDigit = false;
+            options.Password.RequireLowercase = false;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireUppercase = false;
+            options.Password.RequiredLength = 4;
+            options.Password.RequiredUniqueChars = 0;
+        });
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,13 +7,12 @@
                      class="img-fluid" alt="Phone image">
             </div>
             <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-                <h1>EcommerceMVC</h1>
+                <h1>Nova Conta</h1>
                 <hr />
-                <form asp-controller="Account" asp-action="Login" method="post">
+                <form asp-controller="Account" asp-action="Register" method="post">
                     <!--ReturnUrl input-->
                     <div asp-validation-summary="All" class="text-danger"></div>
-                    <input type="hidden" asp-for="ReturnUrl" />
-                    <!-- Email input -->
+                    <!-- User input -->
                     <div class="form-outline mb-4">
                         <input asp-for="UserName" type="email" id="form1Example13" class="form-control form-control-lg" />
                         <label class="form-label" for="form1Example13">Username</label>
@@ -26,10 +25,9 @@
                     </div>
 
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
-                    <a class="btn btn-secondary btn-lg btn-block" asp-controller="Account" asp-action="Register">Criar Conta</a>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Criar</button>
 
-                    
+
                 </form>
             </div>
         </div>
