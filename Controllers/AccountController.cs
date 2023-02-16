@@ -1,6 +1,7 @@
 ﻿using EcommerceMVC.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace EcommerceMVC.Controllers {
     public class AccountController : Controller {
@@ -37,6 +38,26 @@ namespace EcommerceMVC.Controllers {
             }
             ModelState.AddModelError("", "Falha ao fazer login!");
             return View(loginVM);
+        }
+
+        //Metodo Register
+        [HttpGet]
+        public IActionResult Register() {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]//Previne ataques CSRF
+        public async Task<IActionResult> Register(LoginViewModel registroVM) {
+            if (ModelState.IsValid) {
+                var user = new IdentityUser { UserName = registroVM.UserName };
+                var result = await _userManager.CreateAsync(user, registroVM.Password);
+                if (result.Succeeded) {
+                    return RedirectToAction("Login", "Account");
+                } else {
+                    this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
+                }
+            }
+            return View(registroVM);
         }
     }
 }
