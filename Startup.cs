@@ -69,7 +69,7 @@ public class Startup {
             //Endpoint das Areas
             endpoints.MapControllerRoute(
                 name: "areas",
-                pattern: "{area:exists}/{controller=Home}/{action=Index}/{Id?}");
+                pattern: "{area:exists}/{controller=Admin}/{action=Index}/{Id?}");
 
             //Endpoint dos produtos filtrados
             endpoints.MapControllerRoute(
