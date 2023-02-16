@@ -2,6 +2,7 @@
 using EcommerceMVC.Models;
 using EcommerceMVC.Repositories;
 using EcommerceMVC.Repositories.Interfaces;
+using EcommerceMVC.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,6 +27,7 @@ public class Startup {
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
         services.AddTransient<IPedidoRepository, PedidoRepository>();
+        services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
         //Habilitando o Cache
         services.AddMemoryCache();
         services.AddSession();
@@ -44,7 +46,7 @@ public class Startup {
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ISeedUserRoleInitial seedUserRoleInitial) {
         if (env.IsDevelopment()) {
             app.UseDeveloperExceptionPage();
         } else {
@@ -63,6 +65,11 @@ public class Startup {
         //Ativando autenticação e autorização
         app.UseAuthentication();
         app.UseAuthorization();
+
+        //Criando as roles
+        seedUserRoleInitial.SeedRoles();
+        //Criando os users
+        seedUserRoleInitial.SeedUsers();
 
         app.UseEndpoints(endpoints => {
 
