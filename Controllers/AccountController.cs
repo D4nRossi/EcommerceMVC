@@ -59,5 +59,15 @@ namespace EcommerceMVC.Controllers {
             }
             return View(registroVM);
         }
+
+        //Metodo Logout
+        [HttpPost]
+        public async Task<IActionResult> Logout() {
+            //Limpar a session
+            HttpContext.Session.Clear();
+            HttpContext.User = null;
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
