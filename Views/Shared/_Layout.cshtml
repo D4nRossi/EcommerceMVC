@@ -20,19 +20,6 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1 flex-sm-row-reverse">
                         <li class="nav-item">
-                            @await Component.InvokeAsync("CarrinhoCompraResumo")
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
-                        </li>-->
-                        @await Html.PartialAsync("_LoginPartial")
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
-                        </li>
-                        <li class="nav-item">
                             @await Component.InvokeAsync("CategoriaMenu")
                         </li>
                         <li>
@@ -41,6 +28,19 @@
                                     <input type="text" class="form-control" placeholder="Procurar Produto" name="searchString" value="@ViewData["searchString"]" />
                                 </div>
                             </form>
+                        </li>
+                        <li class="nav-item">
+                            @await Component.InvokeAsync("CarrinhoCompraResumo")
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                        </li>-->
+                        @await Html.PartialAsync("_LoginPartial")
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                     </ul>
                 </div>
