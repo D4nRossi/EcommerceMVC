@@ -1,9 +1,11 @@
 ﻿using EcommerceMVC.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace EcommerceMVC.Controllers {
+    [AllowAnonymous]
     public class AccountController : Controller {
         //Injetando classes UserManager e SignInManager
         private readonly UserManager<IdentityUser> _userManager;

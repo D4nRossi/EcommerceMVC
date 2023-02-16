@@ -1,5 +1,6 @@
 ﻿using EcommerceMVC.Models;
 using EcommerceMVC.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
@@ -13,12 +14,12 @@ namespace EcommerceMVC.Controllers {
             _pedidoRepository = pedidoRepository;
             _carrinhoCompra = carrinhoCompra;
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Checkout() {
             return View();
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Checkout(Pedido pedido) {
             int totalItensPedido = 0;
