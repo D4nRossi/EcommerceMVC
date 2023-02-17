@@ -43,6 +43,13 @@ public class Startup {
             options.Password.RequiredUniqueChars = 0;
         });
 
+        //Registrando a politica de autorização
+        services.AddAuthorization(options => {
+            options.AddPolicy("Admin", politica => {
+                politica.RequireRole("Admin");
+            });
+        });
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
