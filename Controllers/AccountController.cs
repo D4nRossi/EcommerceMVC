@@ -73,5 +73,10 @@ namespace EcommerceMVC.Controllers {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        //Metodo de acesso negado
+        public IActionResult AccessDenied() {
+            return View();
+        }
     }
 }
