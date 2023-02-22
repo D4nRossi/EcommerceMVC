@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EcommerceMVC.Context;
 using EcommerceMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EcommerceMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles="Admin")]
     public class AdminPedidosController : Controller
     {
         private readonly AppDbContext _context;
