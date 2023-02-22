@@ -34,7 +34,7 @@ namespace EcommerceMVC.Models {
 
         public void AdicionarAoCarrinho(Produto produto) {
             //Verificação se item ja esta no carrinho
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(s => s.Produto.ProdutoId == produto.ProdutoId && s.CarrinhoCompraId == CarrinhoCompraId);
+            var carrinhoCompraItem = _context.CarrinhoCompraItems.SingleOrDefault(s => s.Produto.ProdutoId == produto.ProdutoId && s.CarrinhoCompraId == CarrinhoCompraId);
 
             if (carrinhoCompraItem == null) {
                 carrinhoCompraItem = new CarrinhoCompraItem {
@@ -44,7 +44,7 @@ namespace EcommerceMVC.Models {
                     Produto = produto,
                     Quantidade = 1
                 };
-                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
+                _context.CarrinhoCompraItems.Add(carrinhoCompraItem);
             } else {
                 //Se ele já existe é só incrementar
                 carrinhoCompraItem.Quantidade++;
@@ -53,7 +53,7 @@ namespace EcommerceMVC.Models {
         }
 
         public int RemoverDoCarrinho(Produto produto) {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(s => s.Produto.ProdutoId == produto.ProdutoId && s.CarrinhoCompraId == CarrinhoCompraId);
+            var carrinhoCompraItem = _context.CarrinhoCompraItems.SingleOrDefault(s => s.Produto.ProdutoId == produto.ProdutoId && s.CarrinhoCompraId == CarrinhoCompraId);
 
             var quantidadeLocal = 0;
 
@@ -62,7 +62,7 @@ namespace EcommerceMVC.Models {
                     carrinhoCompraItem.Quantidade--;
                     quantidadeLocal = carrinhoCompraItem.Quantidade;
                 } else {
-                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                    _context.CarrinhoCompraItems.Remove(carrinhoCompraItem);
                 }
             }
             _context.SaveChanges();
@@ -70,7 +70,7 @@ namespace EcommerceMVC.Models {
         }
 
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens() {
-            return CarrinhoCompraItems ?? (CarrinhoCompraItems = _context.CarrinhoCompraItens
+            return CarrinhoCompraItems ?? (CarrinhoCompraItems = _context.CarrinhoCompraItems
                 .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                 .Include(s => s.Produto)
                 .ToList());
@@ -78,15 +78,15 @@ namespace EcommerceMVC.Models {
 
         public void LimparCarrinho() {
             //Achar o carrinho que quero excluir
-            var carrinhoItens = _context.CarrinhoCompraItens
+            var carrinhoItens = _context.CarrinhoCompraItems
                 .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
             //Removendo todas as entidades
-            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+            _context.CarrinhoCompraItems.RemoveRange(carrinhoItens);
             _context.SaveChanges();
         }
 
         public decimal GetCarrinhoCompraTotal() {
-            var total = _context.CarrinhoCompraItens
+            var total = _context.CarrinhoCompraItems
                 .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                 .Select(c => c.Produto.Preco * c.Quantidade)
                 .Sum();

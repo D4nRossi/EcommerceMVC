@@ -31,6 +31,7 @@ public class Startup {
         //Habilitando o Cache
         services.AddMemoryCache();
         services.AddSession();
+        services.AddControllersWithViews();
 
         //Sobrescrever senha do Identity
         services.Configure<IdentityOptions>(options => {

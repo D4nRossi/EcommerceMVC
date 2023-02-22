@@ -15,14 +15,14 @@ namespace EcommerceMVC.Components {
         public IViewComponentResult Invoke() {
             //Itens a serem obtidos
             var itens = _carrinhoCompra.GetCarrinhoCompraItens();
-
             _carrinhoCompra.CarrinhoCompraItems = itens;
+
             //Instancia da ViewModel
-            var carrinhoCompraVM = new CarrinhoCompraViewModel {
+            var carrinhoCompraViewModel = new CarrinhoCompraViewModel {
                 CarrinhoCompra = _carrinhoCompra,
                 CarrinhoCompraTotal = _carrinhoCompra.GetCarrinhoCompraTotal()
             };
-            return View(carrinhoCompraVM);
+            return View(carrinhoCompraViewModel);
         }
     }
 }

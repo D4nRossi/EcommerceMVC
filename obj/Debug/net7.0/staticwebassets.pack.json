@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EcommerceMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EcommerceMVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\4439057.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\4439057.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\TREN-ACE.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\TREN-ACE.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\a25592-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\a25592-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\c798346b5dc421fd5fe246b2d18ff683-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\c798346b5dc421fd5fe246b2d18ff683-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\creatina-vetbras_183233-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\creatina-vetbras_183233-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\MISC\\jack-3d-advanced-usplabs-45-doses-usplabs-3be-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\MISC\\jack-3d-advanced-usplabs-45-doses-usplabs-3be-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Gym\\SUPLEMENTS.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Gym\\SUPLEMENTS.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\BEST MANGAS.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\BEST MANGAS.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\5171r6klPML.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\5171r6klPML.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\5191HKIfUPL.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\5191HKIfUPL.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\51Qyj-tfh8L.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\51Qyj-tfh8L.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\7a0fe5ff9f91bc8628d7272dd4d9addb.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\7a0fe5ff9f91bc8628d7272dd4d9addb.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\91RULr6yN4L.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\91RULr6yN4L.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\RFxvGJz-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\RFxvGJz-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Manga\\MISC\\stigma-sangrando-berserk-5b8943c670b9c-estampa-303-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Manga\\MISC\\stigma-sangrando-berserk-5b8943c670b9c-estampa-303-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\184604507X.01.LZ_-190x300.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\184604507X.01.LZ_-190x300.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\51EuP5wZlbL.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\51EuP5wZlbL.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\greek-background.jpg",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\greek-background.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\st_small_845x845-pad_1000x1000_f8f8f8-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\st_small_845x845-pad_1000x1000_f8f8f8-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\stoic-six-pack-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\stoic-six-pack-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\MISC\\zenao-de-eleia.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\MISC\\zenao-de-eleia.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Carousel\\Stoicism\\STOICISM.png",
+      "PackagePath": "staticwebassets\\img\\Carousel\\Stoicism\\STOICISM.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\CarrinhoCompra.ico",
+      "PackagePath": "staticwebassets\\img\\Icons\\CarrinhoCompra.ico"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\CarrinhoCompra.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\CarrinhoCompra.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\Envelope-icon24.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\Home-iconred.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\TrashCan.ico",
+      "PackagePath": "staticwebassets\\img\\Icons\\TrashCan.ico"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\TrashCan.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\TrashCan.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\admon.jpeg",
+      "PackagePath": "staticwebassets\\img\\Icons\\admon.jpeg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\cart.ico",
+      "PackagePath": "staticwebassets\\img\\Icons\\cart.ico"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\cart.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\cart.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\img\\Icons\\faleconosco1.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\negado.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\negado.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Icons\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\img\\Icons\\phone-app-icon.png"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Estoicismo\\Diario.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Estoicismo\\Diario.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Estoicismo\\ManualEpicteto.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Estoicismo\\ManualEpicteto.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Estoicismo\\MarcoAurelio.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Estoicismo\\MarcoAurelio.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Estoicismo\\SobreAVida.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Estoicismo\\SobreAVida.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Manga\\5191HKIfUPL.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Manga\\5191HKIfUPL.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\img\\Produtos\\Suplementos\\jack-3d-advanced-usplabs-45-doses-usplabs-3be.jpg",
+      "PackagePath": "staticwebassets\\img\\Produtos\\Suplementos\\jack-3d-advanced-usplabs-45-doses-usplabs-3be.jpg"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Git2023\\EcommerceMVC\\EcommerceMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EcommerceMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EcommerceMVC.props",
+      "PackagePath": "build\\EcommerceMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EcommerceMVC.props",
+      "PackagePath": "buildMultiTargeting\\EcommerceMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EcommerceMVC.props",
+      "PackagePath": "buildTransitive\\EcommerceMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
