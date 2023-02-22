@@ -9,6 +9,7 @@ using EcommerceMVC.Context;
 using EcommerceMVC.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
+using ReflectionIT.Mvc.Paging;
 
 namespace EcommerceMVC.Areas.Admin.Controllers
 {
@@ -23,11 +24,22 @@ namespace EcommerceMVC.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/AdminProdutoes
-        public async Task<IActionResult> Index()
-        {
-            var appDbContext = _context.Produtos.Include(p => p.Categoria);
-            return View(await appDbContext.ToListAsync());
+        // GET: Admin/AdminProdutos
+        //public async Task<IActionResult> Index()
+        //{
+        //   var appDbContext = _context.Produtos.Include(p => p.Categoria);
+        //    return View(await appDbContext.ToListAsync());
+        //}
+        //Definições estão no controller de pedidos
+        public async Task<IActionResult> Index(string filter, int pageindex=1, string sort = "Nome") {
+            var resultado = _context.Produtos.Include(p => p.Categoria).AsQueryable();
+            if (!string.IsNullOrEmpty(filter)) {
+                resultado = resultado.Where(l => l.Nome.Contains(filter));
+            }
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
         }
 
         // GET: Admin/AdminProdutoes/Details/5
