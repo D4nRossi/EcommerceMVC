@@ -1,4 +1,5 @@
-﻿using EcommerceMVC.Context;
+﻿using EcommerceMVC.Areas.Admin.Servicos;
+using EcommerceMVC.Context;
 using EcommerceMVC.Models;
 using EcommerceMVC.Repositories;
 using EcommerceMVC.Repositories.Interfaces;
@@ -57,6 +58,9 @@ public class Startup {
             options.ViewName = "Bootstrap4";
             options.PageParameterName = "pageindex";
         });
+
+        //Serviço do relatorio
+        services.AddScoped<RelatorioVendaService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
