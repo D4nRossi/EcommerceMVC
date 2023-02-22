@@ -560,3 +560,4 @@ D:\Git2023\EcommerceMVC\EcommerceMVC\obj\Debug\net7.0\refint\EcommerceMVC.dll
 D:\Git2023\EcommerceMVC\EcommerceMVC\obj\Debug\net7.0\EcommerceMVC.pdb
 D:\Git2023\EcommerceMVC\EcommerceMVC\obj\Debug\net7.0\EcommerceMVC.genruntimeconfig.cache
 D:\Git2023\EcommerceMVC\EcommerceMVC\obj\Debug\net7.0\ref\EcommerceMVC.dll
+D:\Git2023\EcommerceMVC\EcommerceMVC\obj\Debug\net7.0\EcommerceMVC.MvcApplicationPartsAssemblyInfo.cs

@@ -5,6 +5,7 @@ using EcommerceMVC.Repositories.Interfaces;
 using EcommerceMVC.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace EcommerceMVC;
 public class Startup {
@@ -51,6 +52,11 @@ public class Startup {
             });
         });
 
+        //Serviço de paginação
+        services.AddPaging(options => {
+            options.ViewName = "Bootstrap4";
+            options.PageParameterName = "pageindex";
+        });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

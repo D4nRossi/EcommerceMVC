@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using EcommerceMVC.Context;
 using EcommerceMVC.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
 
 namespace EcommerceMVC.Areas.Admin.Controllers
 {
@@ -23,9 +24,24 @@ namespace EcommerceMVC.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminPedidos
-        public async Task<IActionResult> Index()
-        {
-              return View(await _context.Pedidos.ToListAsync());
+        //public async Task<IActionResult> Index()
+        //{
+        //      return View(await _context.Pedidos.ToListAsync());
+        //}
+        //Definindo o metodo index com a paginação
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome") {
+            //Consulta para obter os dados
+            var resultado = _context.Pedidos.AsNoTracking().AsQueryable();
+            //Se o valor de filtro for informado, incluir na consulta
+            if (!string.IsNullOrEmpty(filter)) {
+                resultado = resultado.Where(p => p.Nome.Contains(filter));
+            }
+            //Objeto/Model da paginação
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "Nome");
+            //Rota para o filtro usado
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
         }
 
         // GET: Admin/AdminPedidos/Details/5
