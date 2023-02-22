@@ -9,6 +9,7 @@ using EcommerceMVC.Context;
 using EcommerceMVC.Models;
 using Microsoft.AspNetCore.Authorization;
 using ReflectionIT.Mvc.Paging;
+using EcommerceMVC.ViewModels;
 
 namespace EcommerceMVC.Areas.Admin.Controllers
 {
@@ -175,6 +176,22 @@ namespace EcommerceMVC.Areas.Admin.Controllers
         private bool PedidoExists(int id)
         {
           return _context.Pedidos.Any(e => e.PedidoId == id);
+        }
+
+        //Consulta para preencher as prop do PedidoProdutoViewModel
+        public IActionResult PedidoProdutos(int? id) {
+            var pedido = _context.Pedidos.Include(pd => pd.PedidoItens).ThenInclude(p => p.Produto).FirstOrDefault(p => p.PedidoId == id);
+
+            if(pedido == null) {
+                Response.StatusCode = 404;
+                return View("PedidoNotFound", id.Value);
+            }
+            //Preencher viewmodel caso tenha produto
+            PedidoProdutoViewModel pedidoProdutos = new PedidoProdutoViewModel() {
+                Pedido = pedido,
+                PedidoDetalhes = pedido.PedidoItens
+            };
+            return View(pedidoProdutos);
         }
     }
 }
