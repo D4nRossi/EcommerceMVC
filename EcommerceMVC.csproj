@@ -5,6 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId> </UserSecretsId>
+    <StartupObject>EcommerceMVC.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

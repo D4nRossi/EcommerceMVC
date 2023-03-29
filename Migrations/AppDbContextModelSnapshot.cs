@@ -44,7 +44,7 @@ namespace EcommerceMVC.Migrations
 
                     b.HasIndex("ProdutoId");
 
-                    b.ToTable("CarrinhoCompraItens");
+                    b.ToTable("CarrinhoCompraItens", (string)null);
                 });
 
             modelBuilder.Entity("EcommerceMVC.Models.Categoria", b =>
@@ -67,7 +67,7 @@ namespace EcommerceMVC.Migrations
 
                     b.HasKey("CategoriaId");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("EcommerceMVC.Models.Pedido", b =>
@@ -134,7 +134,7 @@ namespace EcommerceMVC.Migrations
 
                     b.HasKey("PedidoId");
 
-                    b.ToTable("Pedido");
+                    b.ToTable("Pedido", (string)null);
                 });
 
             modelBuilder.Entity("EcommerceMVC.Models.PedidoDetalhe", b =>
@@ -163,7 +163,7 @@ namespace EcommerceMVC.Migrations
 
                     b.HasIndex("ProdutoId");
 
-                    b.ToTable("PedidoDetalhes");
+                    b.ToTable("PedidoDetalhes", (string)null);
                 });
 
             modelBuilder.Entity("EcommerceMVC.Models.Produto", b =>
@@ -213,7 +213,7 @@ namespace EcommerceMVC.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Produtos");
+                    b.ToTable("Produtos", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

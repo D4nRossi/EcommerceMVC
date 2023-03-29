@@ -62,7 +62,7 @@ public class Startup {
         //Serviço do relatorio
         services.AddScoped<RelatorioVendaService>();
 
-        //Serviço das imagens
+        //Serviço de imagens
         services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
     }
 
